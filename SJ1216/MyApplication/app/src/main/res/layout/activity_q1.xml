@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sunrin.firstday_github.Q1Activity">
+        <TextView
+            android:layout_marginTop="150dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Write it"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:id="@+id/subtext"
+            android:textColor="@color/textcolor1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="write something!"
+            android:gravity="center"
+            android:id="@+id/writetext"
+            android:textColor="@color/textcolor1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click!"
+            android:id="@+id/bt1"
+            android:textColor="@color/textcolor1"/>
+
+</LinearLayout>
